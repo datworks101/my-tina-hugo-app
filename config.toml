@@ -1,4 +1,13 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://my-tina-hugo-app.pages.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ananke"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[permalinks]
+post = "/:slug/"
+
+# Additional configurations can go here (if needed).
+
